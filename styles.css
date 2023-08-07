@@ -1,0 +1,200 @@
+body {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #000000;
+}
+
+/* Main container */
+.main-container {
+  display: flex;
+  flex-direction: row;
+  flex: 10;
+  min-height: 120vh;
+  font-size: large;
+}
+
+/* Navigation bar */
+/* .navigation {
+  flex: 0 0 auto;
+  width: 200px; 
+  background-color: #080707;
+  padding: 20px;
+  color: white;
+} */
+
+
+
+.main a {
+    color: rgb(0, 0, 0);
+  }
+a {
+  color: white;
+  
+}
+.header {
+  display: flex;
+  background-color: #252121;
+  align-items: center;
+  justify-content: space-between;
+  height: 3em;
+  padding: 10px;
+  color: white;
+}
+
+/* Main content */
+.main {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+#icon {
+  width: 50px;
+  height: 50px;
+}
+#small_icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+#user_icon {
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.footer {
+  display: flex;
+  background-color: #000000;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.user_cart{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* All input text should change the background on the focus */
+input[type="text"]:focus {
+  background-color: #a6a6a6;
+}
+
+
+label {
+  display: inline-block;
+  border: 1px solid #1f1f1f;
+  padding: 5px;
+  color: #3f2626;
+}
+
+input[type="text"]:focus + label {
+  border-color: #f00;
+}
+
+
+.error input{
+  background-color: #ff0000;
+  font-size: 14px;
+}
+
+
+
+/* table style */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th {
+  background-color: #434343;
+  color: #ffffff;
+  text-align: center;
+}
+
+table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+
+
+
+
+input:required {
+  background-color: rgb(244, 245, 156);
+}
+
+
+input{
+  height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* list style */
+ul {
+  list-style-image: url("./images/icons8-item-30.png");
+  list-style: circle;
+}
+
+
+
+ul ul {
+  list-style-image: url("./images/icons8-item-24.png");
+  
+}
+
+ul, ol {
+  list-style-position: inside;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol ol {
+  list-style-type: lower-alpha;
+}
+
+
+
+button , .edit_team_button , .delete_team_button{
+  background-color: skyblue;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button{
+  font-size: large;
+}
+input[type="submit"]{
+  background-color: skyblue;
+  height:40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

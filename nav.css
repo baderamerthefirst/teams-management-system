@@ -1,0 +1,36 @@
+/* navigation.css */
+
+.navigation {
+    font-family: Arial, sans-serif;
+    border-right: 2px solid #f0f0f0;
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 10px;
+  }
+  
+  .navigation li {
+    padding: 20px 0px;
+    text-align: center;
+
+  }
+  
+  .navigation li:last-child {
+    border-bottom: none;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #cfcfcf;
+    display: block;
+  }
+  
+  .navigation li:hover {
+
+    background-color: #4b3b3b;
+    color: #000;
+    border-radius: 25px;
+  }
+  
