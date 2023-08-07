@@ -36,27 +36,27 @@ The project aims to develop a user-friendly web application for managing footbal
 ## Installation
 
 1.	Clone the repository: git clone https://github.com/baderamerthefirst/teams-management-system.git
-2.	
-3.	2. Set up the database and configure the database connection in `db.inc` file.
-4.	
-5.	3. Start your web server and access the project in your web browser.
-6.	
-7.	## Usage
-8.	
-9.	1. Register and log in to the application.
-10.	
-11.	2. Use the dashboard to view existing teams.
-12.	
-13.	3. Click on a team name to see the team details.
-14.	
-15.	4. Create new teams using the "Create New Team" link.
-16.	
-17.	5. Edit or delete teams from the team details page.
-18.	
-19.	## Contributing
-20.	
-21.	Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
-22.	
-23.	## License
-24.	
-25.	This project is licensed under the [MIT License](LICENSE).
+   
+2. Set up the database and configure the database connection in `db.inc` file.
+   
+3. Start your web server and access the project in your web browser.
+   
+4.	## Usage
+	
+5. Register and log in to the application.
+
+6. Use the dashboard to view existing teams.
+    
+7. Click on a team name to see the team details.
+    
+8. Create new teams using the "Create New Team" link.
+    
+9. Edit or delete teams from the team details page.
+    
+10.	## Contributing
+    
+11.	Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+    
+12.	## License
+    
+13.	This project is licensed under the [MIT License](LICENSE).
